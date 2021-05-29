@@ -1,0 +1,49 @@
+{
+  "doc_id": "07bbcfc3-3516-4781-94f8-503d094d5e93",
+  "doc_name": "Trash-Recognizer",
+  "doc_version": "7ed8ea74bdc1a0f00566cabce4df9dcc",
+  "format": "tf",
+  "version": 15,
+  "inputs": {
+    "Image": {
+      "dtype": "float32",
+      "shape": [
+        null,
+        224,
+        224,
+        3
+      ],
+      "name": "Image:0"
+    }
+  },
+  "outputs": {
+    "Prediction": {
+      "dtype": "string",
+      "shape": [
+        null
+      ],
+      "name": "8becb236-2c12-4b77-8d76-f9d04827673c/tf_op_layer_3ff186c1-fe28-4442-abe1-44f7ed005781/19c66cd4-e1d6-49f4-80ab-3aa348c5b264/ff9b2ff4-4799-495e-8e91-a6fed91e9315/GatherV2/3ff186c1-fe28-4442-abe1-44f7ed005781/19c66cd4-e1d6-49f4-80ab-3aa348c5b264/ff9b2ff4-4799-495e-8e91-a6fed91e9315/GatherV2:0"
+    },
+    "Confidences": {
+      "dtype": "float32",
+      "shape": [
+        null,
+        5
+      ],
+      "name": "8becb236-2c12-4b77-8d76-f9d04827673c/dense_2/Softmax:0"
+    }
+  },
+  "tags": [
+    "serve"
+  ],
+  "classes": {
+    "Label": [
+      "compost",
+      "garbage",
+      "hazardous",
+      "not-trash",
+      "recycle"
+    ]
+  },
+  "filename": "saved_model.pb"
+}
