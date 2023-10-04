@@ -1,5 +1,11 @@
 # trash-classifier-remote
 
-A concurrently running image transfer, inference, and data sending program for use in Project Trash-Classifier.
+A concurrently running image transfer, inference, and data sending program for use in Project Trash-Classifier (for my HighSchool SkillsUSA Software project, got 2nd in States);
 
-Utilizes tensorflow for Inference (The model was created through Lobe).
+Here is the concurrency diagram of the client and server code:
+
+Server side:
+<img src="./assets/serverSideConcurrencyDiagram?raw=true" width="200px">
+
+Client side:
+<img src="./assets/clientSideConcurrencyDiagram?raw=true" width="200px">
