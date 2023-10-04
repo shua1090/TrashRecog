@@ -9,3 +9,5 @@ Server side:
 
 Client side:
 <img src="./assets/clientSideConcurrencyDiagram?raw=true" width="200px">
+
+Engineering Notebook is also linked under assets
