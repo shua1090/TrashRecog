@@ -5,9 +5,9 @@ A concurrently running image transfer, inference, and data sending program for u
 Here is the concurrency diagram of the client and server code:
 
 Server side:
-<img src="./assets/serverSideConcurrencyDiagram?raw=true" width="200px">
+<img src="./assets/serverSideConcurrencyDiagram.png?raw=true" width="200px">
 
 Client side:
-<img src="./assets/clientSideConcurrencyDiagram?raw=true" width="200px">
+<img src="./assets/clientSideConcurrencyDiagram.png?raw=true" width="200px">
 
 Engineering Notebook is also linked under assets
